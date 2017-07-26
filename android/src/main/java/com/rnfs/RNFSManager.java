@@ -34,7 +34,7 @@ import java.security.MessageDigest;
 import java.util.HashMap;
 import java.util.Map;
 
-pblic class RNFSManager extends ReactContextBaseJavaModule {
+public class RNFSManager extends ReactContextBaseJavaModule {
 
   private static final String RNFSDocumentDirectoryPath = "RNFSDocumentDirectoryPath";
   private static final String RNFSExternalDirectoryPath = "RNFSExternalDirectoryPath";
