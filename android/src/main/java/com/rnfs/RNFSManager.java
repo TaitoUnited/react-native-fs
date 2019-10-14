@@ -295,8 +295,6 @@ public class RNFSManager extends ReactContextBaseJavaModule {
       inputStream.skip(position);
       int bytesRead = inputStream.read(buffer, 0, length);
 
-      String base64Content = Base64.encodeToString(buffer, 0, bytesRead, Base64.NO_WRAP);
-
       Uri uri = Uri.parse(filepath);
       if (uri.getScheme() == null) {
         uri = Uri.parse("file://" + filepath);
